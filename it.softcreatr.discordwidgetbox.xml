@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="https://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.woltlab.com https://www.woltlab.com/XSD/vortex/language.xsd" languagename="italiano" languagecode="it" countrycode="it">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.sc_discord_widget_box"><![CDATA[Discord Widget Box]]></item>
+		<item name="wcf.acp.option.category.sc_discord_widget_box.general"><![CDATA[Generale]]></item>
+		<item name="wcf.acp.option.category.sc_discord_widget_box.appearance"><![CDATA[Aspetto]]></item>
+		<item name="wcf.acp.option.sc_discord_widget_box_server_id"><![CDATA[Discord Server ID]]></item>
+		<item name="wcf.acp.option.sc_discord_widget_box_invite_url"><![CDATA[URL Invito al server Discord]]></item>
+		<item name="wcf.acp.option.sc_discord_widget_box_display_channels"><![CDATA[Visualizza Canali vocali]]></item>
+		<item name="wcf.acp.option.sc_discord_widget_box_hide_empty_channels"><![CDATA[Nascondi canali vocali non utilizzati]]></item>
+		<item name="wcf.acp.option.sc_discord_widget_box_hide_avatars"><![CDATA[Nascondi avatar degli utenti]]></item>
+		<item name="wcf.acp.option.sc_discord_widget_box_hide_avatars.description"><![CDATA[Il caricamento di avatar utenti potrebbe rallentare la navigazione sul tuo forum.]]></item>
+	</category>
+	
+	<category name="wcf.box.scDiscordWidget">
+		<item name="wcf.box.scDiscordWidget.channels"><![CDATA[Canali]]></item>
+		<item name="wcf.box.scDiscordWidget.members"><![CDATA[Membri Online]]></item>
+		<item name="wcf.box.scDiscordWidget.join"><![CDATA[Entra nel server Discord]]></item>
+		<item name="wcf.box.scDiscordWidget.copyright"><![CDATA[<a href="https://www.softcreatr.de"><strong>Discord Widget</strong> &copy; {if 'Y'|gmdate == '2018'}{'Y'|gmdate}{else}2018-{'Y'|gmdate}{/if} by <strong>SoftCreatR Media</strong></a>]]></item>
+	</category>
+	
+	<category name="wcf.acp.box">
+		<item name="wcf.acp.box.boxController.de.softcreatr.wsc.discordWidgetBox"><![CDATA[Discord Widget]]></item>
+	</category>
+</language>

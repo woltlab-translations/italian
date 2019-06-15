@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="it">
+	<category name="wcf.extendedSearch">
+		<item name="wcf.extendedSearch.group.keywords"><![CDATA[Parole Chiave]]></item>
+		<item name="wcf.extendedSearch.group.users"><![CDATA[Utenti]]></item>
+		<item name="wcf.extendedSearch.group.cms"><![CDATA[Articoli]]></item>	
+		<item name="wcf.extendedSearch.group.cmsPage"><![CDATA[Pagine]]></item>	
+		<item name="wcf.extendedSearch.search.empty"><![CDATA[Nessun risultato per "{$searchString}"]]></item>
+		<item name="wcf.extendedSearch.search.hitCount"><![CDATA[{$hitCount} click{if $hitCount !== 1}s{/if}]]></item>
+	</category>
+
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.module_extended_search"><![CDATA[Ricerca Estesa]]></item>
+		<item name="wcf.acp.option.category.extended_search"><![CDATA[Ricerca Estesa]]></item>
+		<item name="wcf.acp.option.category.extended_search.general"><![CDATA[Generale]]></item>
+		<item name="wcf.acp.option.extended_search_search_type"><![CDATA[Seleziona Formato]]></item>
+		<item name="wcf.acp.option.extended_search_search_highlight"><![CDATA[Aggiungi parametro "Highlight" per cercare indirizzi web]]></item>
+		<item name="wcf.acp.option.extended_search_search_type.startend"><![CDATA[Segnaposto di fronte ed al Fondo (%search%)]]></item>
+		<item name="wcf.acp.option.extended_search_search_type.start"><![CDATA[Placeholder di fronte (%search)]]></item>
+		<item name="wcf.acp.option.extended_search_search_type.end"><![CDATA[Segnaposto al fondo (search%)]]></item>
+		<item name="wcf.acp.option.extended_search_search_type.exact"><![CDATA[Risultato esatto]]></item>
+		<item name="wcf.acp.option.category.extended_search.keywords"><![CDATA[Parole Chiave]]></item>
+		<item name="wcf.acp.option.extended_search_general_alignment"><![CDATA[Posizione risultati di ricerca]]></item>
+		<item name="wcf.acp.option.extended_search_general_alignment.left"><![CDATA[Sinistra]]></item>
+		<item name="wcf.acp.option.extended_search_general_alignment.right"><![CDATA[Destra]]></item>
+		<item name="wcf.acp.option.extended_search_general_enable_search_types"><![CDATA[Attiva contenuti sensibili]]></item>
+		<item name="wcf.acp.option.extended_search_general_enable_search_types.description"><![CDATA[Visualizza risultati sensibili.]]></item>
+		<item name="wcf.acp.option.extended_search_keywords_enabled"><![CDATA[Attiva parole chiave]]></item>
+		<item name="wcf.acp.option.extended_search_keywords_count"><![CDATA[Numero di parole chiave]]></item>
+		<item name="wcf.acp.option.category.extended_search.users"><![CDATA[Utenti]]></item>
+		<item name="wcf.acp.option.extended_search_users_enabled"><![CDATA[Abilita Utenti]]></item>
+		<item name="wcf.acp.option.extended_search_users_show_avatar"><![CDATA[Visualizza avatar]]></item>
+		<item name="wcf.acp.option.extended_search_users_count"><![CDATA[Numero di Utenti]]></item>
+		<item name="wcf.acp.option.category.extended_search.cms"><![CDATA[CMS]]></item>
+		<item name="wcf.acp.option.extended_search_cms_enabled"><![CDATA[Attiva Articoli]]></item>
+		<item name="wcf.acp.option.extended_search_cms_show_path"><![CDATA[Visualizza Percorso]]></item>
+		<item name="wcf.acp.option.extended_search_cms_show_image"><![CDATA[Visualizza immagine Articolo]]></item>
+		<item name="wcf.acp.option.extended_search_cms_count"><![CDATA[Numero di Articoli]]></item>
+		<item name="wcf.acp.option.extended_search_cms_pages_enabled"><![CDATA[Attiva Pagine]]></item>
+		<item name="wcf.acp.option.extended_search_cms_pages_ignore_system_pages"><![CDATA[Ignora Pagine di Sistema]]></item>		
+		<item name="wcf.acp.option.extended_search_cms_pages_count"><![CDATA[Numero di Pagine]]></item>		
+	</category>	
+</language>

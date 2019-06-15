@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="https://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.woltlab.com https://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="it" languagename="Italiano">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.module_bats"><![CDATA[Bats]]></item>
+		<item name="wcf.acp.option.category.display.bats"><![CDATA[Pipistrelli]]></item>
+		<item name="wcf.acp.option.halloween_bats_enable_mobile"><![CDATA[Abilita animazione sugli smartphones]]></item>
+		<item name="wcf.acp.option.halloween_bats_path"><![CDATA[Percorso Immagine]]></item>
+		<item name="wcf.acp.option.halloween_bats_path.description"><![CDATA[Percorso o URL dell'immagine usata (Default: {@$__wcf->getPath()}images/bat.gif)]]></item>
+		<item name="wcf.acp.option.halloween_bats_number"><![CDATA[Numero di pipistrelli da visualizzare]]></item>
+		<item name="wcf.acp.option.halloween_bats_number_mobile"><![CDATA[Numero di pipistrelli da visualizzare (mobile)]]></item>
+		<item name="wcf.acp.option.halloween_bats_speed"><![CDATA[Velocita']]></item>
+		<item name="wcf.acp.option.halloween_bats_speed.description"><![CDATA[Velocita' dell'animazione (Default: 3)]]></item>
+		<item name="wcf.acp.option.halloween_bats_scale"><![CDATA[Grandezza Pipistrelli]]></item>
+		<item name="wcf.acp.option.halloween_bats_scale.description"><![CDATA[Dimensione massima dei pipistrelli (Default: 80%)]]></item>
+	</category>
+	
+	<category name="wcf.user.option">
+		<item name="wcf.user.option.showBats"><![CDATA[Visualizza i Pipistrelli]]></item>
+	</category>
+</language>

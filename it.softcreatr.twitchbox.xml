@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="https://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.woltlab.com https://www.woltlab.com/XSD/vortex/language.xsd" languagename="Italiano" languagecode="it" countrycode="it">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.sc_twitch_box"><![CDATA[Twitch Box]]></item>
+		<item name="wcf.acp.option.category.sc_twitch_box.general"><![CDATA[Generale]]></item>
+		<item name="wcf.acp.option.category.sc_twitch_box.appearance"><![CDATA[Aspetto]]></item>
+		<item name="wcf.acp.option.sc_twitch_box_client_id"><![CDATA[Twitch Client ID]]></item>
+		<item name="wcf.acp.option.sc_twitch_box_client_id.description"><![CDATA[Puoi ottenere il tuo Client ID su <a href="{@$__wcf->getPath()}acp/dereferrer.php?url={'https://dev.twitch.tv/dashboard/apps/create'|rawurlencode}" class="externalURL">Twitch</a>.]]></item>
+		<item name="wcf.acp.option.sc_twitch_box_cache_life_time"><![CDATA[Vita Cache]]></item>
+		<item name="wcf.acp.option.sc_twitch_box_cache_life_time.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.sc_twitch_box_style"><![CDATA[Stile Box]]></item>
+		<item name="wcf.acp.option.sc_twitch_box_style.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.sc_twitch_box_style.style1"><![CDATA[Stile 1]]></item>
+		<item name="wcf.acp.option.sc_twitch_box_style.style2"><![CDATA[Stile 2]]></item>
+		<item name="wcf.acp.option.sc_twitch_box_channel_status_icon"><![CDATA[Icona Status]]></item>
+		<item name="wcf.acp.option.sc_twitch_box_channel_status_icon.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.sc_twitch_box_channels"><![CDATA[Canali Twitch]]></item>
+		<item name="wcf.acp.option.sc_twitch_box_channels.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.sc_twitch_box_channel_display_number"><![CDATA[Numbero di canali da visualizzare]]></item>
+		<item name="wcf.acp.option.sc_twitch_box_channel_display_number.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.sc_twitch_box_channel_display_offline"><![CDATA[Visualizza canali Offline]]></item>
+		<item name="wcf.acp.option.sc_twitch_box_channel_display_offline.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.sc_twitch_box_channel_display_sort"><![CDATA[Visualizza]]></item>
+		<item name="wcf.acp.option.sc_twitch_box_channel_display_sort.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.sc_twitch_box_channel_display_sort.displayName"><![CDATA[Nome]]></item>
+		<item name="wcf.acp.option.sc_twitch_box_channel_display_sort.followers"><![CDATA[Numbero di Followers]]></item>
+		<item name="wcf.acp.option.sc_twitch_box_channel_display_sort.views"><![CDATA[Numero di visualizzazioni (Overall)]]></item>
+		<item name="wcf.acp.option.sc_twitch_box_channel_display_sort.viewers"><![CDATA[Numero di Spettatori]]></item>
+		<item name="wcf.acp.option.sc_twitch_box_channel_display_sort_direction"><![CDATA[Ordine]]></item>
+		
+		<item name="wcf.acp.option.sc_twitch_box_use_system_page"><![CDATA[Usa pagina Interna]]></item>
+		<item name="wcf.acp.option.sc_twitch_box_use_system_page.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.sc_twitch_box_system_page_enable_chat"><![CDATA[Abilita Chat]]></item>
+		<item name="wcf.acp.option.sc_twitch_box_system_page_chat_mode"><![CDATA[Colore Chat]]></item>
+		<item name="wcf.acp.option.sc_twitch_box_system_page_chat_mode.light"><![CDATA[Chiaro / Standard]]></item>
+		<item name="wcf.acp.option.sc_twitch_box_system_page_chat_mode.dark"><![CDATA[Scuro]]></item>
+	</category>
+	
+	<category name="wcf.acp.box">
+		<item name="wcf.acp.box.boxController.de.softcreatr.wsc.twitchBox"><![CDATA[Twitch Box]]></item>
+	</category>
+	
+	<category name="wcf.box.scTwitchBox">
+		<item name="wcf.box.scTwitchBox.status.offline"><![CDATA[Offline]]></item>
+		<item name="wcf.box.scTwitchBox.status.online"><![CDATA[Online]]></item>
+		<item name="wcf.box.scTwitchBox.stats.viewers"><![CDATA[Spettatori]]></item>
+		<item name="wcf.box.scTwitchBox.stats.followers"><![CDATA[Followers]]></item>
+		<item name="wcf.box.scTwitchBox.stats.views"><![CDATA[Visualizzazioni]]></item>
+		<item name="wcf.box.scTwitchBox.stats.playing"><![CDATA[Gioco:]]></item>
+		<item name="wcf.box.scTwitchBox.showMore"><![CDATA[More]]></item>
+		<item name="wcf.box.scTwitchBox.noStream"><![CDATA[Al momento non ci sono Dirette]]></item>
+		<item name="wcf.box.scTwitchBox.showAll"><![CDATA[Visualizza tutti i canali Twitch]]></item>
+	</category>
+	
+	<category name="wcf.page">
+		<item name="wcf.page.scTwitchListPage.title"><![CDATA[Twitch Channels]]></item>
+		<item name="wcf.page.scTwitchStreamPage.title"><![CDATA[Diretta]]></item>
+		<item name="wcf.page.scTwitchPage.copyright"><![CDATA[<a href="https://www.softcreatr.de"><strong>Twitch Box</strong> &copy; 2017-{'Y'|gmdate} by <strong>SoftCreatR Media</strong></a>]]></item>
+	</category>
+</language>
